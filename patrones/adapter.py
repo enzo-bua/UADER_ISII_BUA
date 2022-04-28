@@ -4,7 +4,7 @@
 #*--------------------------------------------------
 
 class Target:
-    """ El destino define la interfaz específica del dominio utilizada por el código del cliente. """
+    """  El destino define la interfaz específica del dominio utilizada por el código del cliente. """
 
     def request(self) -> str:
         return "Target: The default target's behavior."
