@@ -9,7 +9,7 @@ from abc import ABC, abstractmethod
 
 class AbstractFactory(ABC):
     """
-   La interfaz de Abstract Factory declara un conjunto de métodos que devuelven
+    La interfaz de Abstract Factory declara un conjunto de métodos que devuelven
     diferentes productos abstractos. Estos productos se denominan familia y son
     relacionados por un tema o concepto de alto nivel. Los productos de una familia suelen ser
     capaces de colaborar entre ellos. Una familia de productos puede tener varios
